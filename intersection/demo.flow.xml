@@ -1,0 +1,6 @@
+<routes> 
+<flow id="1" from="W2TL"  begin="0" end="3600"   departLane= "best" number="261"  color = "1,0,0"/>  
+<flow id="2" from="S2TL"  begin="0" end="3600"  departLane= "best" number="1435"  color = "0,1,0"/>   
+<flow id="3" from="E2TL"  begin="0" end="3600" departLane= "best"  number="100" color = "0,0,1"/>   
+<flow id="4" from="N2TL"  begin="0" end="3600" departLane= "best" number="1701"  color = "1,1,0"/>   
+</routes>

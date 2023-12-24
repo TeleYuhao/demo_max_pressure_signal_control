@@ -1,0 +1,27 @@
+<edgeRelations>
+   <interval begin="0" end="3600">
+      <edgeRelation from="W2TL" to="TL2N" probability="0.207"/>
+      <edgeRelation from="W2TL" to="TL2E" probability="0.460"/>
+      <edgeRelation from="W2TL" to="TL2S" probability="0.334"/>
+
+      <edgeRelation from="S2TL" to="TL2W" probability="0.095"/>
+      <edgeRelation from="S2TL" to="TL2N" probability="0.647"/>
+      <edgeRelation from="S2TL" to="TL2E" probability="0.094"/>
+
+      <edgeRelation from="E2TL" to="TL2S" probability="0.706"/>
+      <edgeRelation from="E2TL" to="TL2W" probability="0.138"/>
+      <edgeRelation from="E2TL" to="TL2N" probability="0.156"/>
+
+
+      <edgeRelation from="N2TL" to="TL2E" probability="0.067"/>
+      <edgeRelation from="N2TL" to="TL2S" probability="0.833"/>
+      <edgeRelation from="N2TL" to="TL2W" probability="0.1"/>
+   </interval>
+
+<turns>
+   <sink edges="TL2W"/>
+   <sink edges="TL2S"/>
+   <sink edges="TL2E"/>
+   <sink edges="TL2N"/>
+</turns>
+</edgeRelations>
